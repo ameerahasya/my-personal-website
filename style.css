@@ -1,0 +1,94 @@
+/* GENERAL STYLE */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #6d5360;
+    text-align: center;
+}
+
+/* MAIN HEADING */
+h1 {
+    color: #c77998;
+    font-size: 40px;
+}
+
+/* PARAGRAPH */
+p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* HOME SECTION */
+.home {
+    padding: 100px 20px;
+    background-color: #fce4ec;
+}
+
+/* NAVIGATION MENU */
+header {
+    background-color: #f8dce8;
+    padding: 20px;
+    text-align: center;
+}
+
+header h2 {
+    color: #b85c83;
+    margin-bottom: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #a64d79;
+    background-color: #fff5f8;
+    padding: 10px 18px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #e8a9c4;
+    color: white;
+}
+
+.interest-card {
+    background-color: #fff0f5;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 500px;
+    border-radius: 20px;
+    border: 1px solid #f2c5d7;
+    text-align: center;
+}
+
+.interest-card h2 {
+    color: #b85c83;
+    font-size: 24px;
+}
+
+.interest-card p {
+    color: #66545d;
+    font-size: 16px;
+}
+
+.interest-img {
+    width: 220px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+}
+
+.profile-img {
+    width: 230px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+    border-radius: 15px;
+}
